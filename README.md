@@ -40,7 +40,7 @@ randomWeekday();
 Optionally specify raw to get the whole weekday object:
 
 ```js
-randomMonth({ raw: true });
+randomWeekday({ raw: true });
 // => { name: 'Tuesday', short: 'TUE', number: 2 }
 ```
 
